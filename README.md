@@ -22,7 +22,8 @@ Outputs:
 * Maximum Velocity
 
 ## Setup
-To use this program, this repository should be cloned/downloaded, then navigate to the local directory and create a virtual environment with:
+To use this program, this repository should be cloned/downloaded. Make sure you have have Python 3.0 installed.
+
 
 ## How to use the program
 First enter whether the units are in US or SI. It should be inputted capitalized.\
