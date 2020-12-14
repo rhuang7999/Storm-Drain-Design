@@ -31,7 +31,13 @@ Next input whether the desired design flowrate of the storm drain in cubic feet 
 Next enter the slope given by the topographic conditions. If no slope is given, enter N/A and then enter the length of the pipe and the headloss.\
 `Slope Based on Topographic Conditions (N/A if not given): 0.02`\
 Finally input the material of the pipe. It should be inputted all capitalized. Which will give the friction factor.\
-`Pipe Material: STEEL`
+`Pipe Material: STEEL`\
+Given those inputs the program should output the diameter, and maximum flowrate and velocity
+'The calculated diameter is: 1.3080310194835059 ft
+The calculated diameter is: 15.69637223380207 inches
+For this storm drain a pipe of 18 inches should be purchased
+The maximum flowrate of the pipe is 16.136645744286362 cfs
+The maximum velocity of the pipe is 9.131473547114563 ft/s'
 
 ## Program Description
 Given, the design flowrate, slope, and material of the pipe,\
