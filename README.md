@@ -42,7 +42,7 @@ the pipe diameter that should be purchased, and maximum flowrate and velocity\
 
 ## Program Description
 Given, the design flowrate, slope, and material of the pipe,\
-the diameter can be calculated by rearranging Manning's equation:
+the diameter can be calculated using Manning's equation:
 Q = (k / n) * A * (R ^ 2 / 3) * (S ^ 1 / 2)  
 Q = Flowrate in pipe\
 k = Units factor\
@@ -51,5 +51,5 @@ A = Area of pipe = π * (d ^ 2) / 4\
 R = Hydraulic radius = A / P = (π * (d ^ 2) / 4) / (π * d) = d / 4\
 S = Slope\
 
-The Manning's equation to solve for the diameter.
+Manning's equation can be rearragned to solve for diameter.\
 d = ((Q * n * (4 ** (5/3))) / (pi * k * (S  ** (1/2)))) ** (3/8)
