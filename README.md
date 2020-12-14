@@ -31,7 +31,7 @@ Next input is the desired design flowrate of the storm drain in cubic feet per s
 Next input is the slope given by the topographic conditions. If no slope is given, enter the length of the pipe and the headloss.\
 `Slope Based on Topographic Conditions (N/A if not given): 0.02`\
 Final input is the material of the pipe. It should be inputted all capitalized. Which would give the friction factor.
-`Pipe Material: STEEL`\
+`Pipe Material: STEEL`
 
 ## Program Description
 Given, the design flowrate, slope, and material of the pipe,\
