@@ -17,3 +17,13 @@ Outputs:
 * Storm Drain Pipe Diameter
 * Maximum Flowrate
 * Maximum Velocity
+
+
+The pipe diameter can be calculated by rearranging Manning's equation:
+Q = (k / n) * A * (R ^ 2 / 3) * (S ^ 1 / 2)  
+Q = Flowrate in pipe
+k = Units factor
+n = Manning friction factor
+A = Area of pipe = π * (d ^ 2) / 4
+R = Hydraulic radis = A / P = (π * (d ^ 2) / 4) / (π * d) = d / 4
+S = Slope
