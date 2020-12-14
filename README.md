@@ -23,7 +23,7 @@ Outputs:
 The first input is whether the units are in US or SI. It should be inputted capitalized.\
 The next input is the desired design flowrate of the storm drain in cubic feet per second.\
 The next input is the slope given by the topographic conditions. If no slope is given, enter the length of the pipe and the headloss.\
-The final input is the material of the pipe. It should be inputted all capitalized. Which would give the friction factor.\ 
+The final input is the material of the pipe. It should be inputted all capitalized. Which would give the friction factor.
 
 
 Given, the design flowrate, slope, and material of the pipe,\
