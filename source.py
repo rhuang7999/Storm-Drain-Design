@@ -1,22 +1,22 @@
 import math
 
 Manning_number = dict([
-                       ('Asphalt', 0.016),
-                       ('Brass',	0.011),
-                       ('Brick', 0.015),
-                       ('Ductile Iron', 0.012),
-                       ('Clay Tile', 0.014),
-                       ('Concrete', 0.013),
-                       ('Copper', 0.011),
-                       ('Corrugated Metal', 0.022),
-                       ('Galvanized Iron', 0.016),
-                       ('Glass', 0.010),
-                       ('Gravel', 0.023),
-                       ('Lead', 0.011),
-                       ('Masonry', 0.025),
-                       ('Plastic', 0.009),
-                       ('Steel', 0.012),
-                       ('Wood', 0.012)
+                       ('ASPHALT', 0.016),
+                       ('BRASS',	0.011),
+                       ('BRICK', 0.015),
+                       ('DUCTILE IRON', 0.012),
+                       ('CLAY TILE', 0.014),
+                       ('CONCRETE', 0.013),
+                       ('COPPER', 0.011),
+                       ('CORRUGATED METAL', 0.022),
+                       ('GALVANIZED IRON', 0.016),
+                       ('GLASS', 0.010),
+                       ('GRAVEL', 0.023),
+                       ('LEAD', 0.011),
+                       ('MASONRY', 0.025),
+                       ('PLASTIC', 0.009),
+                       ('STEEL', 0.012),
+                       ('WOOD', 0.012)
 ])
 
 Units = input('Units US or SI: ')
