@@ -5,6 +5,7 @@ This program will aid the design of storm drains given the parameters of the loc
 Assumptions:
 * Steady Uniform Flow
 * Circular Channel Design
+* Pipe is one Material
 
 Inputs:
 * If the units are in US or SI
