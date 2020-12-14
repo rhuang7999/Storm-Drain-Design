@@ -25,13 +25,13 @@ To use this program, this repository should be cloned/downloaded, then navigate 
 
 ## How to use the program
 First input is whether the units are in US or SI. It should be inputted capitalized.\
-`Units US or SI: US`
+`Units US or SI: US`\
 Next input is the desired design flowrate of the storm drain in cubic feet per second.\
-`Storm Drain Design Flowrate in cfs: 11.2`
+`Storm Drain Design Flowrate in cfs: 11.2`\
 Next input is the slope given by the topographic conditions. If no slope is given, enter the length of the pipe and the headloss.\
-`Slope Based on Topographic Conditions (N/A if not given): 0.02`
+`Slope Based on Topographic Conditions (N/A if not given): 0.02`\
 Final input is the material of the pipe. It should be inputted all capitalized. Which would give the friction factor.
-`Pipe Material: STEEL`
+`Pipe Material: STEEL`\
 
 ## Program Description
 Given, the design flowrate, slope, and material of the pipe,\
