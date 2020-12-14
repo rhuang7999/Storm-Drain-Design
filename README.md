@@ -55,6 +55,7 @@ Manning's equation can be rearragned to solve for diameter.\
 d = ((Q * n * (4 ** (5/3))) / (pi * k * (S  ** (1/2)))) ** (3/8)
 
 Although, Mannong's equation gives us a value for pipe diameter,\
-only certain size pipes are sold and the diameter is rounded up the closest diameter sold.
+only certain size pipes are sold and the diameter is rounded up the closest higher diameter sold.
 
-
+The maximum flowrate is calculated by using the Manning's equation with the new diameter.\
+The maximum flowrate is calculated by dividing the maximum flowrate by the area of the pipe.
