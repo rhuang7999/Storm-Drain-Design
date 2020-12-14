@@ -20,12 +20,15 @@ Outputs:
 * Maximum Flowrate
 * Maximum Velocity
 
-The first input is whether the units are in US or SI. It should be inputted capitalized.\
-The next input is the desired design flowrate of the storm drain in cubic feet per second.\
-The next input is the slope given by the topographic conditions. If no slope is given, enter the length of the pipe and the headloss.\
-The final input is the material of the pipe. It should be inputted all capitalized. Which would give the friction factor.
 
+## How to use the program
+First input is whether the units are in US or SI. It should be inputted capitalized.\
+`Units US or SI: US`
+Next input is the desired design flowrate of the storm drain in cubic feet per second.\
+Next input is the slope given by the topographic conditions. If no slope is given, enter the length of the pipe and the headloss.\
+Final input is the material of the pipe. It should be inputted all capitalized. Which would give the friction factor.
 
+##Program Description
 Given, the design flowrate, slope, and material of the pipe,\
 the diameter can be calculated by rearranging Manning's equation:
 Q = (k / n) * A * (R ^ 2 / 3) * (S ^ 1 / 2)  
@@ -35,6 +38,3 @@ n = Manning friction factor\
 A = Area of pipe = π * (d ^ 2) / 4\
 R = Hydraulic radius = A / P = (π * (d ^ 2) / 4) / (π * d) = d / 4\
 S = Slope\
-
-## How to use the program
-`<addr>`
