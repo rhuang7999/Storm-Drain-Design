@@ -129,4 +129,3 @@ class StormDrainDesign:
         Required_diameter = self.pipe_diameter(Diameter_inches)
         Qmax = self.max_flowrate(Required_diameter, self.Conversion_Factor, self.Slope, self.Friction_factor)
         self.max_velocity(Qmax,Required_diameter)
-
