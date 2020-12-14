@@ -3,6 +3,8 @@
 This program will aid the design of storm drains given the parameters of the location and specifications of the client.
 
 Assumptions:
+* Steady Uniform Flow
+* Circular Channel Design
 
 Inputs:
 * If the units are in US or SI
@@ -17,7 +19,6 @@ Outputs:
 * Storm Drain Pipe Diameter
 * Maximum Flowrate
 * Maximum Velocity
-
 
 The pipe diameter can be calculated by rearranging Manning's equation:
 Q = (k / n) * A * (R ^ 2 / 3) * (S ^ 1 / 2)  
