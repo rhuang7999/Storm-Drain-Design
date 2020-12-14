@@ -20,7 +20,8 @@ Outputs:
 * Maximum Flowrate
 * Maximum Velocity
 
-Given, the design flowrate, slope, and material of the pipe,\the diameter can be calculated by rearranging Manning's equation:
+Given, the design flowrate, slope, and material of the pipe,\
+the diameter can be calculated by rearranging Manning's equation:
 Q = (k / n) * A * (R ^ 2 / 3) * (S ^ 1 / 2)  
 Q = Flowrate in pipe\
 k = Units factor\
