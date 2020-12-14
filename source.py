@@ -6,7 +6,9 @@ class StormDrainDesign:
         self.Conversion_Factor, self.Design_flowrate, self.Slope, self.Pipe_material, self.Friction_factor = self.inputs() 
 
     def inputs(self):
-        Manning_number = {'ASPHALT': 0.016, 'BRASS':0.011,'BRICK': 0.015,'DUCTILE IRON': 0.012,'CLAY TILE': 0.014,'CONCRETE': 0.013,'CORRUGATED METAL': 0.022,'GALVANIZED IRON': 0.016,'GLASS': 0.010,'GRAVEL': 0.023,'LEAD': 0.011,'MASONRY': 0.025,'PLASTIC': 0.009,'STEEL': 0.012,'WOOD': 0.012}
+        Manning_number = {'ASPHALT': 0.016, 'BRASS':0.011,'BRICK': 0.015,'DUCTILE IRON': 0.012,'CLAY TILE': 0.014,'CONCRETE': 0.013,
+                          'CORRUGATED METAL': 0.022,'GALVANIZED IRON': 0.016,'GLASS': 0.010,'GRAVEL': 0.023,'LEAD': 0.011,'MASONRY': 0.025,
+                          'PLASTIC': 0.009,'STEEL': 0.012,'WOOD': 0.012}
         Units = input('Units US or SI: ')
         if Units.upper() == 'US':
             Conversion_factor = float(1.49)
