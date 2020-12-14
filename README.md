@@ -25,5 +25,5 @@ Q = Flowrate in pipe\
 k = Units factor\
 n = Manning friction factor\
 A = Area of pipe = π * (d ^ 2) / 4\
-R = Hydraulic radis = A / P = (π * (d ^ 2) / 4) / (π * d) = d / 4\
+R = Hydraulic radius = A / P = (π * (d ^ 2) / 4) / (π * d) = d / 4\
 S = Slope
