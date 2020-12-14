@@ -28,7 +28,7 @@ Next input is the desired design flowrate of the storm drain in cubic feet per s
 Next input is the slope given by the topographic conditions. If no slope is given, enter the length of the pipe and the headloss.\
 Final input is the material of the pipe. It should be inputted all capitalized. Which would give the friction factor.
 
-##Program Description
+## Program Description
 Given, the design flowrate, slope, and material of the pipe,\
 the diameter can be calculated by rearranging Manning's equation:
 Q = (k / n) * A * (R ^ 2 / 3) * (S ^ 1 / 2)  
