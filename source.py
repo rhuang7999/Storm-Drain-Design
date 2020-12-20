@@ -14,6 +14,11 @@ class StormDrainDesign:
             Conversion_factor = float(1.49)
         elif Units.upper() == 'SI':
             print('Convert units to US')
+            Covert = input('Are units converted from SI to US? (Y or N): ')
+            if Covert.upper() == 'Y':
+               Conversion_factor = float(1.49)
+            else:
+              raise ValueError('Invalid Input! Units must be US')          
         else:
             raise ValueError('Invalid Input! Units must be US')
 
