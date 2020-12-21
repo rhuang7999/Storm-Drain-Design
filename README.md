@@ -75,4 +75,5 @@ Although, Manning's equation gives us a value for pipe diameter,\
 only certain size pipes are sold and the diameter is rounded up the closest higher diameter sold.
 
 The maximum flowrate is calculated by using the Manning's equation with the new diameter.\
-The maximum flowrate is calculated by dividing the maximum flowrate by the area of the pipe.
+The maximum flowrate is calculated by dividing the maximum flowrate by the area of the pipe.\
+The specific energy is calcualted using the diameter and maximum velocity.
