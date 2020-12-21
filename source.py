@@ -26,8 +26,8 @@ class StormDrainDesign:
 
         Slope = input('Slope Based on Topographic Conditions (N/A if not given): ')
         if Slope == 'N/A':
-            Length = float(input('Length of pipe: '))
-            Head_loss = float(input('Headloss: '))
+            Length = float(input('Length of pipe in feet: '))
+            Head_loss = float(input('Headloss in feet: '))
             Slope = Head_loss / Length
             print(Slope)
         else:
