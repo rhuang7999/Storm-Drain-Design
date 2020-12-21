@@ -76,4 +76,6 @@ only certain size pipes are sold and the diameter is rounded up the closest high
 
 The maximum flowrate is calculated by using the Manning's equation with the new diameter.\
 The maximum flowrate is calculated by dividing the maximum flowrate by the area of the pipe.\
-The specific energy is calcualted using the diameter and maximum velocity.
+The specific energy is calcualted using the diameter and maximum velocity.\
+
+Specific energy can be used to determine if the flow in the pipe is subcritical or supercritical.
