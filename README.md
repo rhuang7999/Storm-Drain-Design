@@ -1,6 +1,7 @@
 # US-Storm-Drain-Design
 
-This program will aid the design of storm drains in the United States given the parameters of the location and specifications of the client.
+This program will aid the design of storm drains in the United States given the parameters of the location and specifications of the client.\
+Given these parameters it will provide the best pipe diameter that is available to be purchased in the United States.
 
 Assumptions:
 * Storm Drain is Designed in the United States
