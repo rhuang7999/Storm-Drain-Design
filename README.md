@@ -5,7 +5,7 @@ This program will aid the design of storm drains in the United States given the 
 Assumptions:
 * Steady Uniform Flow
 * Circular Channel Design
-* Pipe is one Material
+* Pipe Cross-Section, Slope, and Material are Uniform
 
 Inputs:
 * If the units are in US or SI
