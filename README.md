@@ -1,7 +1,7 @@
 # US-Storm-Drain-Design
 
 This program will aid the design of storm drains in the United States given the parameters of the location and specifications of the client.\
-In order to properly design a storm drain a proper pipe diameter must be chosen to be purchased. Since most pipes have a standard pipe\
+In order to properly design a storm drain, a pipe diameter must be chosen to be purchased. Since most pipes have a standard pipe\
 dimension, there is a limited number of pipe diameters that can be purchased to satisfy the design criteria. 
 
 Assumptions:
