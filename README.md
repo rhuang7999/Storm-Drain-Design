@@ -34,9 +34,9 @@ Next input whether the desired design flowrate of the storm drain in cubic feet 
 `Storm Drain Design Flowrate in cfs: 11.2`\
 Next enter the slope given by the topographic conditions.\
 `Slope Based on Topographic Conditions (N/A if not given): 0.02`\
-If no slope is given, enter N/A and then enter the length of the pipe and the headloss. The program will calcualte the headloss.\
-`Length of pipe: 1000`\
-`Headloss: 2`\
+If no slope is given, enter N/A and then enter the length of the pipe and the headloss in feet. The program will calcualte the headloss.\
+`Length of pipe in feet: 2000`\
+`Headloss in feet: 4`\
 `0.002`\
 Finally input the material of the pipe. It should be inputted all capitalized. Which will give the friction factor.\
 `Pipe Material: STEEL`\
