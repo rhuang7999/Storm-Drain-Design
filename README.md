@@ -23,6 +23,7 @@ Outputs:
 * Storm Drain Pipe Diameter
 * Maximum Flowrate
 * Maximum Velocity
+* Specific Energy when Full
 
 ## Setup
 To use this program, this repository should be cloned/downloaded. Make sure you have have Python 3.0 installed.
@@ -51,7 +52,8 @@ the pipe diameter that should be purchased, and maximum flowrate and velocity\
 `The calculated diameter is: 15.69637223380207 inches`\
 `For this storm drain a pipe of 18 inches should be purchased`\
 `The maximum flowrate of the pipe is 16.136645744286362 cfs`\
-`The maximum velocity of the pipe is 9.131473547114563 ft/s`
+`The maximum velocity of the pipe is 9.131473547114563 ft/s`\
+`The specific energy when the pipe is full is 2.472322905099687 ft`
 
 ## Program Description
 Given, the design flowrate, slope, and material of the pipe,\
