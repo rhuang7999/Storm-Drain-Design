@@ -1,7 +1,8 @@
 # US-Storm-Drain-Design
 
 This program will aid the design of storm drains in the United States given the parameters of the location and specifications of the client.\
-Given these parameters it will provide the best pipe diameter that is available to be purchased in the United States.
+In order to properly design a storm drain a proper pipe diameter must be chosen to be purchased. Since most pipes have a standard pipe\
+dimension, there is a limited number of pipe diameters that can be purchased to satisfy the design criteria. 
 
 Assumptions:
 * Storm Drain is Designed in the United States
@@ -32,7 +33,7 @@ To use this program, this repository should be cloned/downloaded. Make sure you 
 ## How to use the program
 First enter whether the units are in US or SI. It should be inputted capitalized.\
 `Units US or SI: US`\
-If the units are SI, they should be converted because this is designed for the US.\
+If the units are SI, they should be converted because this is designed for US.\
 `Units US or SI: SI`\
 `Convert units to US`\
 `Are units converted from SI to US? (Y or N): Y`\
