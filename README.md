@@ -9,7 +9,7 @@ Assumptions:
 
 Inputs:
 * If the units are in US or SI
- * If the units are in SI, they should be converted to US
+  * If the units are in SI, they should be converted to US
 * Desired Design Flowrate
 * Slope of pipe
   * Length of Pipe
