@@ -131,8 +131,18 @@ class StormDrainDesign:
 
     #print('The maximum velocity of the pipe is', Vmax, 'ft/s')
 
+    def specific_energy(self,required_diameter,Vmax):
+        """ Returns the specific energy given the max velocity and diameter
+        """        
+        energy = required_diameter / 12 + (Vmax ** 2/ (2 * 32.2))
+        print('The specific energy when the pipe is full is', energy, 'ft') 
+        return energy
+
+    #print('The specific energy when the pipe is full is', energy, 'ft')        
+
     def main(self):
         Diameter_inches = self.calc_diameter(float(self.Design_flowrate), self.Conversion_Factor, self.Slope, self.Friction_factor)
         Required_diameter = self.pipe_diameter(Diameter_inches)
         Qmax = self.max_flowrate(Required_diameter, self.Conversion_Factor, self.Slope, self.Friction_factor)
-        self.max_velocity(Qmax,Required_diameter)
+        Vmax = self.max_velocity(Qmax,Required_diameter)
+        energy = self.specific_energy(Required_diameter, Vmax)
