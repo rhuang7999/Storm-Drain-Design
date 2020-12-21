@@ -1,6 +1,6 @@
-# Storm-Drain-Diameter-Design
+# Storm-Drain-Design
 
-This program will aid the design of storm drains given the parameters of the location and specifications of the client.
+This program will aid the design of storm drains in the United States given the parameters of the location and specifications of the client.
 
 Assumptions:
 * Steady Uniform Flow
