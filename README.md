@@ -31,6 +31,10 @@ To use this program, this repository should be cloned/downloaded. Make sure you 
 ## How to use the program
 First enter whether the units are in US or SI. It should be inputted capitalized.\
 `Units US or SI: US`\
+If the units are SI, they should be converted because this is designed for the US.\
+`Units US or SI: SI`\
+`Convert units to US`\
+`Are units converted from SI to US? (Y or N): Y`\
 Next input whether the desired design flowrate of the storm drain in cubic feet per second.\
 `Storm Drain Design Flowrate in cfs: 11.2`\
 Next enter the slope given by the topographic conditions.\
