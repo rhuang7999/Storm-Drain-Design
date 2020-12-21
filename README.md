@@ -43,7 +43,7 @@ Next enter the slope given by the topographic conditions.\
 If no slope is given, enter N/A and then enter the length of the pipe and the headloss in feet. The program will calcualte the headloss.\
 `Length of pipe in feet: 2000`\
 `Headloss in feet: 4`\
-`0.002`\
+`Slope: 0.002`\
 Finally input the material of the pipe. It should be inputted all capitalized. Which will give the friction factor.\
 `Pipe Material: STEEL`\
 Given those inputs the program should output the calculated pipe diameter,\
