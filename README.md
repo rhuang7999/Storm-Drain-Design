@@ -3,6 +3,7 @@
 This program will aid the design of storm drains in the United States given the parameters of the location and specifications of the client.
 
 Assumptions:
+* Storm Drain is Designed in the United States
 * Steady Uniform Flow
 * Circular Channel Design
 * Pipe Cross-Section, Slope, and Material are Uniform
