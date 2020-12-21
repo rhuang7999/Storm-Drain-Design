@@ -29,7 +29,7 @@ class StormDrainDesign:
             Length = float(input('Length of pipe in feet: '))
             Head_loss = float(input('Headloss in feet: '))
             Slope = Head_loss / Length
-            print(Slope)
+            print('Slope based on length and headloss: ', Slope)
         else:
             Slope = float(Slope)
 
